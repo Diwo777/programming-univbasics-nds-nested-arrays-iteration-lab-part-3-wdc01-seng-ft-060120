@@ -9,11 +9,9 @@ def join_nested_strings(src)
   key.each do |value|
     if value.class == String 
       outer_result << value 
-    
   end
   end
-  
-end
+  end
 outer_result.join(" ")
 end
 
