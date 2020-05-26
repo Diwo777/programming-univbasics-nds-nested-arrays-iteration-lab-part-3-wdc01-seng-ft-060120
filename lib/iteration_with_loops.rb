@@ -5,9 +5,9 @@ require "pry"
 
 def join_nested_strings(src)
   outer_result = []
-  src.each |key|
+  src.each do |key|
     binding.pry
-
+end
 end
 
 
