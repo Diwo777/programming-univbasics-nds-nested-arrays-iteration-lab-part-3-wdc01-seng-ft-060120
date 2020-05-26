@@ -9,7 +9,7 @@ def join_nested_strings(src)
   key.each do |value|
     if value.class == String 
       outer_result << value 
-    binding.pry
+    
   end
   end
   
